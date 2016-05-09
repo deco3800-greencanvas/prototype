@@ -124,10 +124,13 @@ label{
 
 .sndcld-heading{
 	display: block;
-	height: 110px;
+	height:30px;
+	float:left;
 	width: 600px;
 	font-size: 2em;
 }
+
+
 
 hr{
 	border: 0;
