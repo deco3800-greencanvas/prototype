@@ -122,14 +122,32 @@ label{
 	z-index: 1;
 }
 
+.sndcld-heading{
+	display: block;
+	height: 110px;
+	width: 600px;
+	font-size: 2em;
+}
+
+hr{
+	border: 0;
+	width: 69.5%;
+	height: 5px;
+	color: #000000;
+	background-color: #000000;
+	right: 10%;
+
+	
+}
+
 body {
     /* Without this, the body has excess horizontal scroll when the menu is open */
-  overflow-x: hidden;
+  	overflow-x: hidden;
 }
 
 /* Additional non-critical styles */
 
-h1, h3, p {
+ h3, p {
   max-width: 600px;
   margin: 0 auto 1em;
 }
@@ -160,6 +178,7 @@ img{
 }
 /*Audio media */
 iframe{
+  padding: 10px;
   width: 70%;
   height: 20%;
 
